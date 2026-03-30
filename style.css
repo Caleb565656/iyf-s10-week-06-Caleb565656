@@ -1,0 +1,5 @@
+.hidden { display: none; }
+#error { color: red; font-weight: bold; }
+#weather-display { margin-top: 20px; }
+#search-history { margin-top: 10px; list-style: none; padding: 0; }
+#search-history li { cursor: pointer; margin-bottom: 5px; color: blue; }
