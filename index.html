@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>JS Async & Fetch Practice</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Async & Fetch Dashboard</h1>
+
+    <section id="async-demo">
+        <h2>Task 11: Async JS Demo</h2>
+        <button id="async-btn">Load User Data</button>
+        <pre id="async-output"></pre>
+    </section>
+
+    <section id="fetch-demo">
+        <h2>Task 12: Fetch API Demo</h2>
+        <form id="search-form">
+            <input type="text" id="city-input" placeholder="Enter city name..." required>
+            <button type="submit">Search</button>
+        </form>
+
+        <div id="loading" class="hidden">Loading...</div>
+        <div id="error" class="hidden"></div>
+        <div id="weather-display" class="hidden">
+            <h2 id="city-name"></h2>
+            <img id="weather-icon" src="" alt="Weather icon">
+            <p id="temperature"></p>
+            <p id="description"></p>
+            <p id="feels-like"></p>
+            <p id="humidity"></p>
+            <p id="wind"></p>
+            <p id="pressure"></p>
+        </div>
+        <ul id="search-history"></ul>
+    </section>
+
+    <script src="app.js"></script>
+</body>
+</html>
